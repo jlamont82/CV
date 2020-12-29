@@ -65,14 +65,14 @@ hr {
 
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 40px;
+  right: 18.75rem;
+  top: 2.5rem;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 250px;
-  bottom: 300px;
+  left: 15.625rem;
+  bottom: 18.75rem;
 }
 
 .top-mountain {
