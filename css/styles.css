@@ -43,7 +43,7 @@ a:hover {
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted #d1ebeb 6px;
   border-bottom: none;
   width: 4%;
   margin: 6.25rem auto;
@@ -121,9 +121,21 @@ li {
   margin-right: 1.88rem;
 }
 
+.certificate {
+  width: 30%;
+  float: right;
+  margin-right: 1.88rem;
+}
+
 .contact-message {
   width: 40%;
   margin: 2.5rem auto 3.75rem;
+}
+
+.screenshot{
+  width: 40%;
+  float: right;
+  margin-right: 1.88rem;
 }
 
 .copyright {
