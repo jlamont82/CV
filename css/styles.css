@@ -146,6 +146,8 @@
     padding: 1.25rem 0;
   }
 }
+
+
 /*mobile css*/
 
 @media screen and (max-width: 800px) {
@@ -211,8 +213,8 @@
   }
 
   li {
-    float: right;
-    font-size: 2rem;
+    float: auto;
+    font-size: 1.5rem;
   }
 
   .top-container {
