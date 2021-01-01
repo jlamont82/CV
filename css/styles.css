@@ -147,9 +147,7 @@
   }
 }
 
-
 /*mobile css*/
-
 @media screen and (max-width: 800px) {
   body {
     color: #40514E;
@@ -252,7 +250,7 @@
   }
 
   .intro {
-    width: 30%;
+    width: 90%;
     margin: auto;
   }
 
@@ -303,6 +301,7 @@
     padding: 1.25rem 0;
   }
 }
+
 .btn {
   background: #66BFBF;
   background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
