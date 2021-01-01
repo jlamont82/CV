@@ -158,7 +158,7 @@
 
   h1 {
     color: #66BFBF;
-    font-size: 5.625rem;
+    font-size: 3.625rem;
     line-height: 1.5;
     margin: 3.13rem auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -166,13 +166,14 @@
 
   h2 {
     color: #66BFBF;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     padding-bottom: 0.63rem;
   }
 
   h3 {
+    font-size: 1rem;
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
   }
@@ -180,7 +181,7 @@
   p {
     line-height: 2;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   a {
@@ -211,7 +212,7 @@
 
   li {
     float: right;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .top-container {
