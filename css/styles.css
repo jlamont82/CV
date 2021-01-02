@@ -257,7 +257,6 @@
   .skill-row {
     width: 90%;
     margin: 100px auto 100px auto;
-    text-align: justify;
   }
 
   .programming-img {
@@ -290,8 +289,8 @@
   }
 
   .screenshot {
-    width: 40%;
-    float: right;
+    width: 60%;
+    float: auto;
     margin-right: 1.88rem;
   }
 
