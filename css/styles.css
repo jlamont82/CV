@@ -281,14 +281,13 @@
   }
 
   .contact-message {
-    width: 40%;
+    width: 90%;
     margin: 2.5rem auto 3.75rem;
   }
 
   .screenshot {
     width: 60%;
     float: auto;
-    margin-right: 1.88rem;
   }
 
   .copyright {
