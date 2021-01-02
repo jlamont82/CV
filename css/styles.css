@@ -255,9 +255,9 @@
   }
 
   .skill-row {
-    width: 50%;
+    width: 90%;
     margin: 100px auto 100px auto;
-    text-align: left;
+    text-align: justify;
   }
 
   .programming-img {
@@ -279,7 +279,7 @@
   }
 
   .certificate {
-    width: 30%;
+    width: 40%;
     float: right;
     margin-right: 1.88rem;
   }
