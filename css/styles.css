@@ -261,20 +261,17 @@
 
   .programming-img {
     width: 25%;
-    float: right;
-    margin-right: 1.88rem;
+    float: auto;
   }
 
   .software-img {
     width: 25%;
-    float: right;
-    margin-right: 1.88rem;
+    float: auto;
   }
 
   .mountaineering-img {
     width: 25%;
-    float: right;
-    margin-right: 1.88rem;
+    float: auto;
   }
 
   .certificate {
