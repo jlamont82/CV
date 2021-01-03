@@ -232,14 +232,14 @@
 
   .top-cloud {
     position: absolute;
-    right: 5.75rem;
+    right: 4.625rem;
     top: 7.5rem;
     width: 10%;
   }
 
   .bottom-cloud {
     position: absolute;
-    left: 5.625rem;
+    left: 4.625rem;
     top: 17rem;
     width: 10%;
   }
