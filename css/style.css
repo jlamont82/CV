@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 body {
     color: #40514E;
     margin: 0;
@@ -166,6 +162,10 @@ ul {
 }
 
 .burger {
+  position: absolute;  /*adjust the position of the burger t top righ*/
+  right: 2.75rem;
+  top: 2.5rem;
+
   display: none;    /*hide burger when on desctop screen*/
 }
 
@@ -178,6 +178,10 @@ ul {
 }
 
  @media screen and (max-width: 768px) {
+
+   body{
+     overflow-x: hidden;
+   }
 
   .nav-links {
       /* right: 0px; */
