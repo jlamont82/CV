@@ -145,6 +145,15 @@
     font-size: 0.75rem;
     padding: 1.25rem 0;
   }
+
+  .github-icon{
+    width: 3rem;
+  }
+
+  .linkedin-icon{
+    width: 3rem;
+  }
+
 }
 
 /*mobile css*/
@@ -154,6 +163,8 @@
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    overflow: hidden;
+
   }
 
   h1 {
@@ -298,6 +309,7 @@
   .ff-footer-link {
     margin: 0.625rem 0.5rem;
   }
+
 }
 
 .btn {
