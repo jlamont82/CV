@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+
+  h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    line-height: 1.5;
+    margin: 3.13rem auto 0 auto;
+    font-family: 'Sacramento', cursive;
+  }
+
+  h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-bottom: 0.63rem;
+  }
+
+  h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  p {
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0.625rem 1.25rem 0.625rem 0;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #19BBC1;
+  }
+
+  hr {
+    border: dotted #d1ebeb 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 6.25rem auto;
+  }
+
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    right: 2.75rem;
+    top: 2.5rem;
+    overflow: hidden;
+  }
+
+  li {
+    float: right;
+  }
+
+  .top-container {
+    background-color: #e3fdfd;
+    position: relative;
+    padding-top: 100px;
+  }
+
+  .middle-container {
+    margin: 6.25rem 0;
+  }
+
+  .bottom-container {
+    background-color: #e3fdfd;
+    padding: 3.13rem 0 1.25rem;
+  }
+
+  .top-cloud {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    right: 10%;
+    bottom: 60%;
+    top: 25rem;
+  }
+
+  .top-mountain {
+    width: 50%;
+  }
+
+  .intro {
+    width: 30%;
+    margin: auto;
+  }
+
+  .skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+
+  .programming-img {
+    width: 25%;
+    float: right;
+    margin-right: 1.88rem;
+  }
+
+  .software-img {
+    width: 25%;
+    float: right;
+    margin-right: 1.88rem;
+  }
+
+  .mountaineering-img {
+    width: 25%;
+    float: right;
+    margin-right: 1.88rem;
+  }
+
+  .certificate {
+    width: 30%;
+    float: right;
+    margin-right: 1.88rem;
+  }
+
+  .contact-message {
+    width: 40%;
+    margin: 2.5rem auto 3.75rem;
+  }
+
+  .screenshot {
+    width: 40%;
+    float: right;
+    margin-right: 1.88rem;
+  }
+
+  .copyright {
+    color: #19BBC1;
+    font-size: 0.75rem;
+    padding: 1.25rem 0;
+  }
+
+  .github-icon{
+    width: 3rem;
+  }
+
+  .linkedin-icon{
+    width: 3rem;
+  }
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.burger {
+  display: none;    /*hide burger when on desctop screen*/
+}
+
+.burger div {
+  width: 25px;  /*width of burger lines*/
+  height: 3px;  /*thickness of the burger lines*/
+  background-color: #66BFBF;  /*color of burger lines*/
+  margin: 5px;    /* margen for burger*/
+  transition: all 0.3s ease;
+}
+
+ @media screen and (max-width: 768px) {
+
+  .nav-links {
+      /* right: 0px; */
+      height: 50vh;         /*hight of menu when poped out*/
+      /* top: 8vh; */
+      background-color: #e3fdfd;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;       /*% of screen covered by menu when extended out*/
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in-out;   /*motion and speed of menu poping out*/
+  }
+
+  .nav-links li {
+      opacity: 0;
+  }
+
+  .burger {
+      display: block;
+      cursor: pointer;
+  }
+}
+
+.nav-active {
+      transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+      opacity: 0;
+      transform: translateX(50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
