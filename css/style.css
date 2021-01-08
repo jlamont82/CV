@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   color: #40514E;
   margin: 0;
@@ -188,7 +194,7 @@ li {
   }
 
   .nav-links {
-    /* right: 0px; */
+   right: 0px; 
     height: 50vh;
     /*hight of menu when poped out*/
     /* top: 8vh; */
