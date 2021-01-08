@@ -13,7 +13,9 @@ body {
 
 h1 {
   color: #66BFBF;
-  font-size: 12vw/*5.625rem*/;
+  font-size:
+    /*12vw*/
+    5.625rem;
   line-height: 1.5;
   margin: 10% auto 0 auto;
   font-family: 'Sacramento', cursive;
@@ -21,7 +23,9 @@ h1 {
 
 h2 {
   color: #66BFBF;
-  font-size: 6vw/*2.5rem*/;
+  font-size:
+    /*5vw*/
+    2.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   padding-bottom: 0.63rem;
@@ -160,6 +164,12 @@ li {
   width: 3rem;
 }
 
+nav {
+  top: 0;
+  width: 100%;
+  display: flex;
+}
+
 .nav-links {
   display: flex;
   justify-content: space-around;
@@ -194,7 +204,7 @@ li {
   }
 
   .nav-links {
-   right: 0;
+    right: 0;
     height: 50vh;
     /*hight of menu when poped out*/
     /* top: 8vh; */
