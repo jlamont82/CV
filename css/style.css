@@ -13,9 +13,7 @@ body {
 
 h1 {
   color: #66BFBF;
-  font-size:
-    /*12vw*/
-    5.625rem;
+  font-size:5.625rem;
   line-height: 1.5;
   margin: 10% auto 0 auto;
   font-family: 'Sacramento', cursive;
@@ -23,9 +21,7 @@ h1 {
 
 h2 {
   color: #66BFBF;
-  font-size:
-    /*5vw*/
-    2.5rem;
+  font-size:2.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   padding-bottom: 0.63rem;
@@ -104,6 +100,10 @@ li {
   width: 50%;
 }
 
+.profile-pic{
+  width: 15rem;
+}
+
 .intro {
   width: 30%;
   margin: auto;
@@ -116,19 +116,19 @@ li {
 }
 
 .programming-img {
-  width: 25%;
+  width: 10rem/*25%*/;
   float: right;
   margin-right: 1.88rem;
 }
 
 .software-img {
-  width: 25%;
+  width: 10rem/*25%*/;
   float: right;
   margin-right: 1.88rem;
 }
 
 .mountaineering-img {
-  width: 25%;
+  width: 10rem/*25%*/;
   float: right;
   margin-right: 1.88rem;
 }
@@ -255,4 +255,43 @@ nav {
 
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+/* contact me button */
+.btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  height: 50px;
+  line-height: 50px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  width: 200px;
+  font-size: 22px;
+  font-weight: 100;
+  padding: 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #66BFBF 1px;
+  background: #74D7D7;
+  color: #FFFFFF;
+  background-image: -webkit-linear-gradient(top, #74D7D7, #e3fdfd);
+  background-image: -moz-linear-gradient(top, #74D7D7, #e3fdfd);
+  background-image: -ms-linear-gradient(top, #74D7D7, #e3fdfd);
+  background-image: -o-linear-gradient(top, #74D7D7, #e3fdfd);
+  background-image: -webkit-gradient(to bottom, #74D7D7, #e3fdfd);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
 }
