@@ -13,7 +13,7 @@ body {
 
 h1 {
   color: #66BFBF;
-  font-size:5.625rem;
+  font-size: 5.625rem;
   line-height: 1.5;
   margin: 10% auto 0 auto;
   font-family: 'Sacramento', cursive;
@@ -21,7 +21,7 @@ h1 {
 
 h2 {
   color: #66BFBF;
-  font-size:2.5rem;
+  font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   padding-bottom: 0.63rem;
@@ -100,7 +100,7 @@ li {
   width: 50%;
 }
 
-.profile-pic{
+.profile-pic {
   width: 15rem;
 }
 
@@ -116,19 +116,25 @@ li {
 }
 
 .programming-img {
-  width: 10rem/*25%*/;
+  width: 10rem
+    /*25%*/
+  ;
   float: right;
   margin-right: 1.88rem;
 }
 
 .software-img {
-  width: 10rem/*25%*/;
+  width: 10rem
+    /*25%*/
+  ;
   float: right;
   margin-right: 1.88rem;
 }
 
 .mountaineering-img {
-  width: 10rem/*25%*/;
+  width: 10rem
+    /*25%*/
+  ;
   float: right;
   margin-right: 1.88rem;
 }
@@ -168,12 +174,20 @@ nav {
   top: 0;
   width: 100%;
   display: flex;
+  /* added */
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
 }
-
+/* added */
 .nav-links {
   display: flex;
   justify-content: space-around;
   width: 30%;
+}
+
+.nav-links li {
+  list-style: none;
 }
 
 .burger {
@@ -199,7 +213,6 @@ nav {
 
 @media screen and (max-width: 768px) {
   body {
-    max-width: 100%;
     overflow-x: hidden;
   }
 
@@ -256,6 +269,7 @@ nav {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
+
 /* contact me button */
 .btn {
   background: #66BFBF;
