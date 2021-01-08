@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 100%;
 }
 
 body {
@@ -14,7 +13,7 @@ body {
 
 h1 {
   color: #66BFBF;
-  font-size: 5.625rem;
+  font-size:5.625rem;
   line-height: 1.5;
   margin: 10% auto 0 auto;
   font-family: 'Sacramento', cursive;
@@ -22,7 +21,7 @@ h1 {
 
 h2 {
   color: #66BFBF;
-  font-size: 2.5rem;
+  font-size:2.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   padding-bottom: 0.63rem;
@@ -101,7 +100,7 @@ li {
   width: 50%;
 }
 
-.profile-pic {
+.profile-pic{
   width: 15rem;
 }
 
@@ -117,25 +116,19 @@ li {
 }
 
 .programming-img {
-  width: 10rem
-    /*25%*/
-  ;
+  width: 10rem/*25%*/;
   float: right;
   margin-right: 1.88rem;
 }
 
 .software-img {
-  width: 10rem
-    /*25%*/
-  ;
+  width: 10rem/*25%*/;
   float: right;
   margin-right: 1.88rem;
 }
 
 .mountaineering-img {
-  width: 10rem
-    /*25%*/
-  ;
+  width: 10rem/*25%*/;
   float: right;
   margin-right: 1.88rem;
 }
@@ -175,20 +168,12 @@ nav {
   top: 0;
   width: 100%;
   display: flex;
-  /* added */
-  /* justify-content: space-around;
-  align-items: center;
-  min-height: 8vh; */
 }
 
-/* added */
-/* .nav-links {
+.nav-links {
   display: flex;
   justify-content: space-around;
   width: 30%;
-} */
-.nav-links li {
-  list-style: none;
 }
 
 .burger {
@@ -213,24 +198,32 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+
+  html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
   body {
+    max-width: 100%;
     overflow-x: hidden;
   }
 
   .nav-links {
     right: 0;
-    /*hight of menu when poped out*/
     height: 50vh;
-    /*hight of menu when popped out*/
+    /*hight of menu when poped out*/
+    /* top: 8vh; */
     background-color: #e3fdfd;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*% of screen covered by menu when extended out*/
     width: 50%;
+    /*% of screen covered by menu when extended out*/
     transform: translateX(100%);
-    /*motion and speed of menu poping out*/
     transition: transform 0.3s ease-in-out;
+    /*motion and speed of menu poping out*/
   }
 
   .nav-links li {
@@ -270,7 +263,6 @@ nav {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
-
 /* contact me button */
 .btn {
   background: #66BFBF;
