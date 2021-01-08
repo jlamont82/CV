@@ -202,9 +202,7 @@ nav {
   html, body {
   overflow-x: hidden;
 }
-body {
-  position: relative
-}
+
   body {
     max-width: 100%;
     overflow-x: hidden;
