@@ -229,20 +229,33 @@ nav {
     /*motion and speed of menu poping out*/
   }
 
+  .bottom-cloud {
+    position: absolute;
+    bottom: 4rem;
+  }
+
   .intro {
     width: 90%;
-    margin: auto;
   }
 
   .skill-row {
     width: 90%;
-    margin: 100px auto 100px auto;
-    text-align: left;
   }
 
   .contact-message {
     width: 90%;
-    margin: 2.5rem auto 3.75rem;
+  }
+
+  .programming-img {
+    width: 6rem;
+  }
+
+  .software-img {
+    width: 6rem;
+  }
+
+  .mountaineering-img {
+    width: 6rem;
   }
 
   .nav-links li {
