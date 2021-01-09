@@ -225,6 +225,22 @@ nav {
     /*motion and speed of menu poping out*/
   }
 
+  .intro {
+    width: 90%;
+    margin: auto;
+  }
+
+  .skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+
+  .contact-message {
+    width: 90%;
+    margin: 2.5rem auto 3.75rem;
+  }
+
   .nav-links li {
     opacity: 0;
   }
