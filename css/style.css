@@ -240,6 +240,11 @@ nav {
 
   .skill-row {
     width: 90%;
+    text-align: center;
+  }
+
+  .project-discription{
+    margin: auto;
   }
 
   .contact-message {
@@ -256,6 +261,12 @@ nav {
 
   .mountaineering-img {
     width: 6rem;
+  }
+
+  .screenshot {
+    width: 100%;
+    margin: 20px auto;
+
   }
 
   .nav-links li {
