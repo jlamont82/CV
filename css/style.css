@@ -209,6 +209,10 @@ nav {
     overflow-x: hidden;
   }
 
+  h1 {
+    font-size:4.625rem;
+  }
+
   .nav-links {
     right: 0;
     height: 50vh;
@@ -231,7 +235,7 @@ nav {
   }
 
   .skill-row {
-    width: 50%;
+    width: 90%;
     margin: 100px auto 100px auto;
     text-align: left;
   }
