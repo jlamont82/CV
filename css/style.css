@@ -107,14 +107,20 @@ li {
 }
 
 .intro {
-  width: 30%;
+  width: 50%;
   margin: auto;
 }
 
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
-  text-align:justify;
+  text-align:left;
+}
+
+.project-discription{
+  width: 70%;
+  margin: 40px auto 5px auto;
+  text-align:center;
 }
 
 .programming-img {
@@ -147,9 +153,8 @@ li {
 }
 
 .screenshot {
-  width: 40%;
-  float: right;
-  margin-right: 1.88rem;
+  width: 50%;
+  margin: auto/*1.88rem 50% 1.88rem 50%*/;
 }
 
 .copyright {
@@ -246,7 +251,8 @@ nav {
   }
 
   .project-discription{
-    margin: auto;
+    margin: 20px auto;
+    width: 90%;
   }
 
   .contact-message {
@@ -267,7 +273,7 @@ nav {
 
   .screenshot {
     width: 100%;
-    margin: 20px auto;
+    margin: 20px auto 0;
 
   }
 
