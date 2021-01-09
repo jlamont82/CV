@@ -114,7 +114,7 @@ li {
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
-  text-align: left;
+  text-align:justify;
 }
 
 .programming-img {
@@ -220,7 +220,7 @@ nav {
     right: 0;
     height: 50vh;
     /*hight of menu when poped out*/
-    top: 12vh; 
+    top: 12vh;
     background-color: #e3fdfd;
     display: flex;
     flex-direction: column;
@@ -243,7 +243,6 @@ nav {
 
   .skill-row {
     width: 90%;
-    text-align:justify;
   }
 
   .project-discription{
