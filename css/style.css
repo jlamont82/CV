@@ -90,6 +90,7 @@ li {
 }
 
 .bottom-cloud {
+  z-index: 0;
   position: absolute;
   right: 10%;
   bottom: 20%;
@@ -187,6 +188,7 @@ nav {
 }
 
 .burger div {
+  z-index: 1;
   width: 25px;
   /*width of burger lines*/
   height: 3px;
@@ -214,10 +216,11 @@ nav {
   }
 
   .nav-links {
+    z-index:6;
     right: 0;
     height: 50vh;
     /*hight of menu when poped out*/
-    /* top: 8vh; */
+    top: 12vh; 
     background-color: #e3fdfd;
     display: flex;
     flex-direction: column;
