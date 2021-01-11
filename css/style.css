@@ -23,7 +23,6 @@ h2 {
   color: #66BFBF;
   font-size:2.5rem;
   font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
   padding-bottom: 0.63rem;
 }
 
@@ -66,20 +65,11 @@ ul {
 li {
   float: right;
 }
-
+/* top container */
 .top-container {
   background-color: #e3fdfd;
   position: relative;
   padding-top: 100px;
-}
-
-.middle-container {
-  margin: 6.25rem 0;
-}
-
-.bottom-container {
-  background-color: #e3fdfd;
-  padding: 3.13rem 0 1.25rem;
 }
 
 .top-cloud {
@@ -101,77 +91,8 @@ li {
   width: 50%;
 }
 
-.profile-pic{
-  width: 15rem;
-  padding-bottom: 50px;
-}
-
-.intro {
-  width: 50%;
-  margin: auto;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align:left;
-}
-
-.project-discription{
-  width: 70%;
-  margin: 40px auto 5px auto;
-  text-align:center;
-}
-
-.programming-img {
-  width: 10rem;
-  float: right;
-  margin-right: 1.88rem;
-}
-
-.software-img {
-  width: 10rem;
-  float: right;
-  margin-right: 1.88rem;
-}
-
-.mountaineering-img {
-  width: 10rem;
-  float: right;
-  margin-right: 1.88rem;
-}
-
-.certificate {
-  width: 30%;
-  float: right;
-  margin-right: 1.88rem;
-}
-
-.contact-message {
-  width: 40%;
-  margin: 2.5rem auto 3.75rem;
-}
-
-.screenshot {
-  width: 50%;
-  margin: auto;
-}
-
-.copyright {
-  color: #19BBC1;
-  font-size: 0.75rem;
-  padding: 1.25rem 0;
-}
-
-.github-icon {
-  width: 3rem;
-}
-
-.linkedin-icon {
-  width: 3rem;
-}
-
-nav {
+/* navigation menu */
+.nav {
   top: 0;
   width: 100%;
   display: flex;
@@ -204,6 +125,83 @@ nav {
   margin: 5px;
   transition: all 0.3s ease;
 }
+
+/* middle container */
+.middle-container {
+  margin: 6.25rem 0;
+}
+
+.profile-pic{
+  width: 15rem;
+  padding-bottom: 50px;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align:left;
+}
+
+.project-discription{
+  width: 70%;
+  margin: 40px auto 5px auto;
+  text-align:center;
+}
+
+
+.skills-img {
+  width: 10rem;
+  float: right;
+  margin-right: 1.88rem;
+}
+
+.certificate {
+  width: 30%;
+  float: right;
+  margin-right: 1.88rem;
+}
+
+.inline-hyperlink {
+  margin: 0;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 2.5rem auto 3.75rem;
+}
+
+.screenshot {
+  width: 50%;
+  margin: auto;
+}
+
+/* bottom container */
+
+.bottom-container {
+  background-color: #e3fdfd;
+  padding: 3.13rem 0 1.25rem;
+  font-size: 0.75rem;
+}
+
+.copyright {
+  color: #19BBC1;
+  padding: 1.25rem 0;
+}
+
+.footer-reference {
+  margin:0;
+  padding: 1.25rem 0 0;
+}
+
+.social-media-icon {
+  width: 3rem;
+}
+
 /* mobile view port css */
 @media screen and (max-width: 768px) {
 
@@ -220,6 +218,8 @@ nav {
     font-size:4.625rem;
   }
 
+/* Top container */
+/* Navication menu */
   .nav-links {
     z-index:6;
     right: 0;
@@ -243,6 +243,7 @@ nav {
     bottom: 4rem;
   }
 
+/* middle container */
   .intro {
     width: 90%;
   }
@@ -260,15 +261,7 @@ nav {
     width: 90%;
   }
 
-  .programming-img {
-    width: 6rem;
-  }
-
-  .software-img {
-    width: 6rem;
-  }
-
-  .mountaineering-img {
+  .skills-img {
     width: 6rem;
   }
 
@@ -277,7 +270,7 @@ nav {
     margin: 20px auto 0;
 
   }
-
+/* navigation menu */
   .nav-links li {
     opacity: 0;
   }
@@ -287,7 +280,7 @@ nav {
     cursor: pointer;
   }
 }
-
+/* navigation menu */
 .nav-active {
   transform: translateX(0%);
 }
