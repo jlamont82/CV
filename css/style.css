@@ -124,19 +124,19 @@ li {
 }
 
 .programming-img {
-  width: 10rem/*25%*/;
+  width: 10rem;
   float: right;
   margin-right: 1.88rem;
 }
 
 .software-img {
-  width: 10rem/*25%*/;
+  width: 10rem;
   float: right;
   margin-right: 1.88rem;
 }
 
 .mountaineering-img {
-  width: 10rem/*25%*/;
+  width: 10rem;
   float: right;
   margin-right: 1.88rem;
 }
@@ -154,7 +154,7 @@ li {
 
 .screenshot {
   width: 50%;
-  margin: auto/*1.88rem 50% 1.88rem 50%*/;
+  margin: auto;
 }
 
 .copyright {
@@ -184,27 +184,27 @@ nav {
 }
 
 .burger {
+    /*adjust the position of the burger t top righ*/
   position: absolute;
-  /*adjust the position of the burger t top righ*/
   right: 2.75rem;
   top: 2.5rem;
+    /*hide burger when on desctop screen*/
   display: none;
-  /*hide burger when on desctop screen*/
 }
 
 .burger div {
   z-index: 1;
+    /*width of burger lines*/
   width: 25px;
-  /*width of burger lines*/
+    /*thickness of the burger lines*/
   height: 3px;
-  /*thickness of the burger lines*/
+    /*color of burger lines*/
   background-color: #66BFBF;
-  /*color of burger lines*/
+    /* margen for burger*/
   margin: 5px;
-  /* margen for burger*/
   transition: all 0.3s ease;
 }
-
+/* mobile view port css */
 @media screen and (max-width: 768px) {
 
   html, body {
@@ -223,19 +223,19 @@ nav {
   .nav-links {
     z-index:6;
     right: 0;
+        /*hight of menu when poped out*/
     height: 50vh;
-    /*hight of menu when poped out*/
     top: 12vh;
     background-color: #e3fdfd;
     font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
+        /*% of screen covered by menu when extended out*/
     width: 50%;
-    /*% of screen covered by menu when extended out*/
     transform: translateX(100%);
+        /*motion and speed of menu poping out*/
     transition: transform 0.3s ease-in-out;
-    /*motion and speed of menu poping out*/
   }
 
   .bottom-cloud {
@@ -291,12 +291,12 @@ nav {
 .nav-active {
   transform: translateX(0%);
 }
-
+/* nav current page color change indecating which page is currently in view */
 .current {
   color: #40514E;
   font-weight: bolder;
 }
-
+/* burger menu */
 @keyframes navLinkFade {
   from {
     opacity: 0;
@@ -308,7 +308,7 @@ nav {
     transform: translateX(0);
   }
 }
-
+/* burger menu rotation to form X to exit menu */
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
 }
