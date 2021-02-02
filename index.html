@@ -1,61 +1,49 @@
-<!—this is my first web page I am aware of it failing the DRY principle as I have duplicated code for the header and
-footer in each page but I have not yet learnt how to resolve this. If you are reading this and can give me any advice
-it would be greatly received as I value any feedback that will allow me to grow and get better.
-John.
-             .--~~,__
-:-....,-------`~~'._.'    woof
- `-,,,  ,_       ;
-  _,-' ,'`-__; '--.
- (_/'~~       ''''(;
-
--->
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatable" content="ie=edge">
-  <!-- css style sheet -->
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>John Douglas Lamont</title>
+  <link rel="stylesheet" href="css/styles.css">
   <!-- favicon -->
   <link rel="icon" href="favicon.ico" />
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-
-  <title>John Douglas Lamont</title>
-
 </head>
 
 <body>
-
   <div class="top-container">
-    <nav>
-      <ul class="nav-links">
-        <li><a class="current" href="index.html">About</a></li>
-        <li><a href="awards.html">Awards</a></li>
-        <!--including #awards in the path to take the viewer into the specific section causes a 404 error-->
-        <li><a href="projects.html ">Projects</a></li>
-      </ul>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-    </nav>
+    <div class="col-md-8 col-xs-8">
+      <nav>
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">About</a>
+          </li>
+          <li>
+            <a href="awards.html #awards">Awards</a>
+          </li>
+          <li>
+            <a href="projects.html #projects">Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
     <h1>I'm John.</h1>
     <h2>An aspiring programmer.</h2>
+    <style media="screen">
 
+    </style>
     <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
     <img class="top-mountain" src="images/mountain.png" alt="mountain-img">
   </div>
 
   <div class="middle-container">
     <div class="profile">
-      <img class="profile-pic" src="images/profileImage.png" alt="John's profile picture">
+      <img src="images/profileImage.png" alt="John's profile picture">
       <h2>Hello.</h2>
       <p class="intro">Graduate in Applied Computing MSc. Experience in technical advisory and inspection roles. Knowledge and experience in software engineering, C++, C#, SQL, UML, basic Flutter skills & currently learning PHP, html, CSS and
         Javascript. Strong independent, team working, time management skills, and good track record of customer service.</p>
@@ -64,7 +52,7 @@ John.
     <div class="skills">
       <h2>My Skills.</h2>
       <div class="skill-row">
-        <img class="skills-img" src="images/programming.png" alt="programming-picture">
+        <img class="programming-img" src="images/programming.png" alt="programming-picture">
         <h3>Programming</h3>
         <p>C++
           <br>C#
@@ -78,7 +66,7 @@ John.
       </div>
 
       <div class="skill-row">
-        <img class="skills-img" src="images/software.png" alt="software-picture">
+        <img class="software-img" src="images/software.png" alt="software-picture">
         <h3>Software Exp.</h3>
         <p>Atom
           <br>Axure RP
@@ -91,7 +79,7 @@ John.
       </div>
 
       <div class="skill-row">
-        <img class="skills-img" src="images/mountaineering.png" alt="mountaineering-picture">
+        <img class="mountaineering-img" src="images/mountaineering.png" alt="mountaineering-picture">
         <h3>Hobbies.</h3>
         <p>Hillwalking
           <br>Mountain biking
@@ -110,19 +98,15 @@ John.
   </div>
 
   <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/john-douglas-lamont-uk" target="_blank"><img class="social-media-icon" src="images/linkedin.png" alt="linkedin icon"></a>
-    <a class="footer-link" href="https://github.com/jlamont82" target="_blank"><img class="social-media-icon" src="images/github.png" alt="github icon"></a>
-    <p class="footer-reference">Icons made by <a class="footer-reference" href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a> and
-      <a class="footer-reference" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
-      <br>
-    </p>
-    <p class="copyright">© 2021 John Lamont.</p>
+    <a class="footer-link" href="https://www.linkedin.com/in/john-douglas-lamont-uk" target="_blank"><img class="linkedin-icon" src="images/linkedin.png" alt="linkedin icon"></a>
+    <a class="footer-link" href="https://github.com/jlamont82" target="_blank"><img class="github-icon" src="images/github.png" alt="github icon"></a>
+    <p style="margin:0; font-size: 0.75rem; padding: 1.25rem 0 0;">Icons made by <a style="margin:0; font-size: 0.75rem;" href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a> and
+      <a style="margin:0; font-size: 0.75rem;" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+  </div>
+  </p>
+  <p class="copyright">© 2021 John Lamont.</p>
   </div>
 
-
-
-  <script src="app.js"></script>
 </body>
-
 
 </html>
