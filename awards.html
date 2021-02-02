@@ -3,26 +3,35 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>John Douglas Lamont</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatable" content="ie=edge">
+  <!-- css style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- favicon -->
+  <link rel="icon" href="favicon.ico">
+  <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+  <title>John Douglas Lamont</title>
 </head>
 
 <body>
   <div class="top-container">
     <div class="col-md-8 col-xs-8">
       <nav>
-        <ul>
+        <ul class="nav-links">
           <li><a href="index.html">About</a></li>
-          <li><a href="awards.html #awards">Awards</a></li>
-          <li><a href="projects.html#projects">Projects</a></li>
+          <li><a class="current" href="awards.html">Awards</a></li>
+          <li><a href="projects.html">Projects</a></li>
         </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
       </nav>
     </div>
-
     <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
     <h1>I'm John.</h1>
     <h2>An aspiring programmer.</h2>
@@ -61,10 +70,11 @@
   </div>
 
   <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/john-douglas-lamont-uk" target="_blank"><img class="linkedin-icon" src="images/linkedin.png" alt="linkedin icon"></a>
-    <a class="footer-link" href="https://github.com/jlamont82" target="_blank"><img class="github-icon" src="images/github.png" alt="github icon"></a>
+    <a class="footer-link" href="https://www.linkedin.com/in/john-douglas-lamont-uk" target="_blank"><img class="social-media-icon" src="images/linkedin.png" alt="linkedin icon"></a>
+    <a class="footer-link" href="https://github.com/jlamont82" target="_blank"><img class="social-media-icon" src="images/github.png" alt="github icon"></a>
     <p class="copyright">© 2021 John Lamont.</p>
   </div>
+  <script src="app.js"></script>
 </body>
 
 </html>
