@@ -1,149 +1,125 @@
-<!—
-             .--~~,___
-:-....,-------`~~'._.'    woof
-`-,,,  ,_       ;
-  _,-' ,'`-__; '--.
- (_/'~~       ''''(;
+<!— .--~~,___ :-....,-------`~~'._.' woof `-,,, ,_ ; _,-' ,'`-__; '--.
+ (_/' ~~ '''' (; -->
 
--->
+  <!DOCTYPE html>
+  <html lang="en">
 
-<!DOCTYPE html>
-<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatable" content="ie=edge">
+    <!-- css style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatable" content="ie=edge">
-  <!-- css style sheet -->
-  <link rel="stylesheet" href="css/style.css">
-  <!-- favicon -->
-  <link rel="icon" href="favicon.ico" />
-  <!-- google fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <title>Intro</title>
+  </head>
 
-  <title>John Douglas Lamont</title>
+  <body>
+    <div class="top-container">
+      <nav>
+        <ul class="nav-links">
+          <li><a class="current" href="index.html">About</a></li>
+          <li><a href="awards.html">Awards</a></li>
+          <li><a href="projects.html ">Projects</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
 
-</head>
+      <button class="go-top-btn">
+        <img src="images/upArrow.png" alt="up button">
+      </button>
 
-<body>
-
-  <div class="top-container">
-    <nav>
-      <ul class="nav-links">
-        <li><a class="current" href="index.html">About</a></li>
-        <li><a href="awards.html">Awards</a></li>
-        <!--including #awards in the path to take the viewer into the specific section causes a 404 error-->
-        <li><a href="projects.html ">Projects</a></li>
-      </ul>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-    </nav>
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm John.</h1>
-    <h2>Software Developer, Agriculturist & Environmentalist.</h2>
-
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img class="top-mountain" src="images/mountain.png" alt="mountain-img">
-  </div>
-
-  <div class="middle-container">
-    <div class="profile">
-      <img class="profile-pic" src="images/profileImage.png" alt="John's profile picture">
-      <h2>Hello.</h2>
-      <p class="intro">Experience in technical advisory and inspection roles within the agricultural and enviromental sector. Knowledge and experience in software engineering, C++, C#, SQL, UML, PHP, html, CSS,
-        Javascript and Selenium automated testing. Strong independent, team working, time management skills, and good track record of customer service. </p>
+      <header-component></header-component>
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="skills-img" src="images/programming.png" alt="programming-picture">
-        <h3>Programming</h3>
-        <p>C++
-          <br>C#
-          <br>CSS
-          <br>Markdown
-          <br>HTML
-          <br>Javascript
-          <br>SQL
-        </p>
-      </div>
 
-            <div class="skill-row">
-        <img class="skills-img" src="images/framework.png" alt="framework-picture">
-        <h3>Programming Frameworks</h3>
-        <p>Blazor
-          <br>.Net
-          <br>Xamarin
-          <br>.Net Maui
-          <br>Selenium
-          <br>N Unit
-        </p>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profile-pic" src="images/profileImage.png" alt="John's profile picture">
+        <h2>Hello.</h2>
+        <p class="intro">Experience in technical advisory and inspection roles within the agricultural and enviromental sector. Knowledge and experience in software engineering, C++, C#, SQL, UML, html, CSS,
+          Javascript and Selenium automated testing. Strong independent, team working, time management skills, and good track record of customer service. </p>
       </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="skills-img" src="images/programming.png" alt="programming-picture">
+          <h3>Programming</h3>
+          <p>C++
+            <br>C#
+            <br>CSS
+            <br>Markdown
+            <br>HTML
+            <br>Javascript
+            <br>SQL
+          </p>
+        </div>
 
-            <div class="skill-row">
-        <img class="skills-img" src="images/sprout.png" alt="sprout-picture">
-        <h3>Agriculture & Environmental Experence.</h3>
-        <p>"On Farm" Experence
-          <br>Agronomic Advisory
-          <br>Agronomic Research
-          <br>Soil Sampling
-          <br>GPS Mapping
-          <br>Govermental Inspections
-        </p>
-      </div>
+        <div class="skill-row">
+          <img class="skills-img" src="images/framework.png" alt="framework-picture">
+          <h3>Programming Frameworks</h3>
+          <p>Blazor
+            <br>.Net
+            <br>Xamarin
+            <br>.Net Maui
+            <br>Selenium
+            <br>N Unit
+          </p>
+        </div>
 
-      <div class="skill-row">
-        <img class="skills-img" src="images/software.png" alt="software-picture">
-        <h3>Software Exp.</h3>
-        <p>Atom
-          <br>Axure RP
-          <br>MS Office
-          <br>My SQL workbench
-          <br>Project Libre
-          <br>Visual Paradigm
-          <br>Visual studio 2022
-          <br>Govermental Software
-        </p>
-      </div>
+        <div class="skill-row">
+          <img class="skills-img" src="images/sprout.png" alt="sprout-picture">
+          <h3>Agriculture & Environmental Experence.</h3>
+          <p>"On Farm" Experence
+            <br>Agronomic Advisory
+            <br>Agronomic Research
+            <br>Soil Sampling
+            <br>GPS Mapping
+            <br>Govermental Inspections
+          </p>
+        </div>
 
-      <div class="skill-row">
-        <img class="skills-img" src="images/mountaineering.png" alt="mountaineering-picture">
-        <h3>Hobbies.</h3>
-        <p>Hillwalking
-          <br>Mountain biking
-          <br>Rock climbing
-        </p>
+        <div class="skill-row">
+          <img class="skills-img" src="images/software.png" alt="software-picture">
+          <h3>Software Exp.</h3>
+          <p>Atom
+            <br>Axure RP
+            <br>MS Office
+            <br>My SQL workbench
+            <br>Project Libre
+            <br>Visual Paradigm
+            <br>Visual studio 2022
+            <br>Govermental Software
+          </p>
+        </div>
+
+        <div class="skill-row">
+          <img class="skills-img" src="images/mountaineering.png" alt="mountaineering-picture">
+          <h3>Hobbies.</h3>
+          <p>Hillwalking
+            <br>Mountain biking
+            <br>Rock climbing
+          </p>
+        </div>
       </div>
     </div>
-    <hr>
 
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you would like to get in touch with me.</h3>
-      
-      <a class="btn" href="mailto:jlamuk@yahoo.co.uk">Contact me</a>
-    </div>
-  </div>
+    <footer-component></footer-component>
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/john-douglas-lamont-uk" target="_blank"><img class="social-media-icon" src="images/linkedin.png" alt="linkedin icon"></a>
-    <a class="footer-link" href="https://github.com/jlamont82" target="_blank"><img class="social-media-icon" src="images/github.png" alt="github icon"></a>
-    <p class="footer-reference">Icons made by <a class="footer-reference" href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a> and
-      <a class="footer-reference" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
-      <br>
-    </p>
-    <p class="copyright">© <script type="text/JavaScript">document.write(new Date().getFullYear())</script> John Lamont.</p>
-  </div>
-  
-  
-
-  <script src="app.js"></script>
-</body>
+    <script src="components\menu.js"></script>
+    <script src="components\upButton.js"></script>
+  </body>
 
 
-</html>
+  </html>

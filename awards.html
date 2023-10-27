@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -8,73 +8,87 @@
   <!-- css style sheet -->
   <link rel="stylesheet" href="css/style.css">
   <!-- favicon -->
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicon.ico" />
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <script src="components/header.js" type="text/javascript" defer></script>
+  <script src="components/footer.js" type="text/javascript" defer></script>
 
-  <title>John Douglas Lamont</title>
+  <title>Awards</title>
 </head>
 
 <body>
   <div class="top-container">
-    <div class="col-md-8 col-xs-8">
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">About</a></li>
-          <li><a class="current" href="awards.html">Awards</a></li>
-          <li><a href="projects.html">Projects</a></li>
-        </ul>
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-      </nav>
-    </div>
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm John.</h1>
-        <h2>Software Developer, Agriculturist & Environmentalist.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img class="top-mountain" src="images/mountain.png" alt="mountain-img">
-  </div>
-
-  <section id="awards">
-    <div class="middle-container">
-      <div>
-        <h2>Awards</h2>
-        <p class="intro">In 2019 I decided to change my career path by returning to education to study Applied Computing at MSc level. On completion of my MSc I graduated with Distinction and received an award for overall best project in applied
-          computing. </p>
-        <div class="skill-row">
-          <a href="docs/msc-distinction.jpg" target="_blank"><img class="certificate" src="docs/msc-distinction.jpg" alt="msc-distinction-img"></a>
-          <p>MSc distinction certificate.</p>
-          <br>
-        </div>
-
-        <div class="skill-row">
-          <a href="docs/Overall-Best-Project.jpg" target="_blank"><img class="certificate" src="docs/Overall-Best-Project.jpg" alt="Overall-Best-Project-img"></a>
-          <p>Overall best MSc project award.</p>
-          <br>
-        </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">About</a></li>
+        <li><a class="current" href="awards.html">Awards</a></li>
+        <li><a href="projects.html ">Projects</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
       </div>
+    </nav>
+
+    <button class="go-top-btn">
+      <img src="images/upArrow.png" alt="up button">
+    </button>
+
+    <header-component></header-component>
+  </div>
+
+  <div class="middle-container">
+    <div>
+      <h2>Awards</h2>
+
       <br>
+      <div >
+        <p class="intro">In 2000 I decided study Agriculture, this was done at what is now the SRUC Edinburgh. </p>
+        <div class="skill-row">
+          <a href="docs/Agriculture certificate.png" target="_blank"><img class="certificate" src="docs/Agriculture certificate.png" alt="agriculture certificate image"></a>
+          <p>SRUC/SAC certificate.</p>
+        </div>
+        <br>
+      </div>
+
       <hr>
-  </section>
+      <div>
+        <p class="intro">In 2010 I decided study plant breeding, this was done at what is now the James Hutton Instatute. </p>
+        <div class="skill-row">
+          <a href="docs/MRes certificate.png" target="_blank"><img class="certificate" src="docs/MRes certificate.png" alt="MRes certificate image"></a>
+          <p>MRes certificate.</p>
+        </div>
+        <br>
+      </div>
 
-  <div class="contact-me">
-    <h2>Get In Touch</h2>
-    <h3>If you would like to get in touch with me.</h3>
-    
-    <a class="btn" href="mailto:jlamuk@yahoo.co.uk">Contact me</a>
+      <hr>
+<div>
+  <p class="intro">In 2019 I decided to change my career path by returning to education to study Applied Computing at MSc level. On completion of my MSc I graduated with Distinction and received an award for overall best project in applied
+    computing. </p>
+  <div class="skill-row">
+    <a href="docs/msc-distinction.jpg" target="_blank"><img class="certificate" src="docs/msc-distinction.jpg" alt="msc-distinction image"></a>
+    <p>MSc distinction certificate.</p>
   </div>
-  </div>
+  <br>
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/john-douglas-lamont-uk" target="_blank"><img class="social-media-icon" src="images/linkedin.png" alt="linkedin icon"></a>
-    <a class="footer-link" href="https://github.com/jlamont82" target="_blank"><img class="social-media-icon" src="images/github.png" alt="github icon"></a>
-    <p class="copyright">© <script type="text/JavaScript">document.write(new Date().getFullYear())</script> John Lamont.</p>
+  <div class="skill-row">
+    <a href="docs/Overall-Best-Project.jpg" target="_blank"><img class="certificate" src="docs/Overall-Best-Project.jpg" alt="Overall-Best-Project image"></a>
+    <p>Overall best MSc project award.</p>
   </div>
-  <script src="app.js"></script>
+  <br>
+</div>
+
+    </div>
+  </div>
+  <br>
+  <br>
+  <footer-component></footer-component>
+
+  <script src="components\menu.js"></script>
+  <script src="components\upButton.js"></script>
 </body>
 
 </html>

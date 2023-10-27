@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -12,31 +12,33 @@
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <script src="components/header.js" type="text/javascript" defer></script>
+  <script src="components/footer.js" type="text/javascript" defer></script>
 
-  <title>John Douglas Lamont</title>
+  <title>Projects</title>
 </head>
 
 <body>
   <div class="top-container">
-    <div class="col-md-8 col-xs-8">
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">About</a></li>
-          <li><a href="awards.html">Awards</a></li>
-          <li><a class="current" href="projects.html">Projects</a></li>
-        </ul>
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-      </nav>
-    </div>
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm John.</h1>
-        <h2>Software Developer, Agriculturist & Environmentalist.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img class="top-mountain" src="images/mountain.png" alt="mountain-img">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="awards.html">Awards</a></li>
+        <li><a class="current" href="projects.html ">Projects</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <button class="go-top-btn">
+      <img src="images/upArrow.png" alt="up button">
+    </button>
+
+    <header-component></header-component>
+
   </div>
 
   <section id="projects">
@@ -45,14 +47,31 @@
         <h2>Projects</h2>
 
         <div class="project-discription">
-          <h3 style="padding-top: 3rem">Farm field desktop App.</h3>
+          <h3 style="padding-top: 3rem">Root Responce To Waterlogging. 2010</h3>
+          <p class="project-discription">This project aimed to study and map root response to waterlogged. This information could be used to quantify crop resistance to waterlogging damage. An imaging technique was developed which allowed root tips to be plotted as they grew through soil during a sequence of dry and waterlogged cycles.
+            The project report can be downloaded <a class="inline-hyperlink" href="docs/Development of a root imaging technique to quantify root responce to waterlogging.pdf" target="_blank">here</a>
+          </p>
+          <br>
+          <a href="images/roots.png" target="_blank"><img class="screenshot" src="images/roots.png" alt="roots image"></a>
+        </div>
+        <hr>
+
+        <div class="project-discription">
+          <h3 style="padding-top: 3rem">The Agronomic Consequences Of Metaldehyde Being Removed From The UK Market. 2014</h3>
+          <p class="project-discription">This project aimed to study the consequences of Metaldehyde being Rrmoved from the UK market and explore the alternitives.
+            The project report can be downloaded <a class="inline-hyperlink" href="docs/Basis Project.pdf" target="_blank">here</a>
+          </p>
+          <br>
+          <a href="images/slug.png" target="_blank"><img class="screenshot" src="images/slug.png" alt="slug image"></a>
+        </div>
+        <hr>
+
+        <div class="project-discription">
+          <h3 style="padding-top: 3rem">Farm field desktop App. 2020</h3>
           <p class="project-discription">This project aimed to develop a desktop application to support users to manage their farming/agricultural business budget and, therefore, assist them to make informed management decisions. This is an area
-            which have proven to be
-            problematic
-            at times due to poor organisational and time management skills, lack of understanding of the current market environment, poor record keeping and literacy issues which can impact on the understanding of info, market changes, usage of
-            technology, difficulties in meeting deadlines for agricultural schemes and therefore, financial issues. Thus, this project intends to assist users with their budgeting and access to applications for governmental support schemes which are
-            an
-            important source of income within this industry. Finally, the program anticipated to be user friendly with people with literacy difficulties which is a wide problem identified in the farming/agriculture community. The project report can
+            which have proven to be problematic at times due to poor organisational and time management skills, lack of understanding of the current market environment, poor record keeping and literacy issues which can impact on the understanding of info, market changes, usage of
+            technology, difficulties in meeting deadlines for agricultural schemes and therefore, financial issues. Thus, this project intends to assist users with their budgeting and access to applications for governmental support schemes which
+            are an important source of income within this industry. Finally, the program anticipated to be user friendly with people with literacy difficulties which is a wide problem identified in the farming/agriculture community. The project report can
             be downloaded <a class="inline-hyperlink" href="docs/FarmField-project.pdf" target="_blank">here</a> and the App files from <a class="inline-hyperlink" href="https://github.com/jlamont82/FarmField-Desktop-App" target="_blank">here</a>.
           </p>
           <br>
@@ -61,37 +80,27 @@
         <hr>
 
         <div class="project-discription">
-          <h3 style="padding-top: 3rem">Farm Mapping App.</h3>
-          <p class="project-discription">The aim of this project is to develop a drawing tool which will allow land owners to map land covers, measure areas and make field notes. This will eventually be intergrated into a larger farm management software. </p>
-          <br>          
+          <h3 style="padding-top: 3rem">Farm Mapping App. 2022</h3>
+          <p class="project-discription">The aim of this project is to develop a drawing tool which will allow land owners to map land covers, measure areas and make field notes. This will eventually be intergrated into a larger farm management
+            software. </p>
+          <br>
           <a href="images/mapping.jpg" target="_blank"><img class="screenshot" src="images/mapping.jpg" alt="mapping-screenshot"></a>
         </div>
         <hr>
 
         <div class="project-discription">
-          <h3 style="padding-top: 3rem">Automated Testing.</h3>
-          <p class="project-discription">The aim of this project is to create automated test scrips using selenium which will allow UI testing in a farm management App  </p>
-          <br>          
-          
+          <h3 style="padding-top: 3rem">Automated Testing. 2023</h3>
+          <p class="project-discription">The aim of this project is to create automated test scrips using selenium which will allow UI testing in a farm management App </p>
+          <br>
         </div>
-        <hr>
-        
+      </div>
+    </div>
   </section>
-  <div class="contact-me">
-    <h2>Get In Touch</h2>
-    <h3>If you would like to get in touch with me.</h3>
-   
-    <a class="btn" href="mailto:jlamuk@yahoo.co.uk">Contact me</a>
-  </div>
-  </div>
 
-  <div class="bottom-container">
+  <footer-component></footer-component>
 
-    <a class="footer-link" href="https://www.linkedin.com/in/john-douglas-lamont-uk" target="_blank"><img class="social-media-icon" src="images/linkedin.png" alt="linkedin icon"></a>
-    <a class="footer-link" href="https://github.com/jlamont82" target="_blank"><img class="social-media-icon" src="images/github.png" alt="github icon"></a>
-    <p class="copyright">© <script type="text/JavaScript">document.write(new Date().getFullYear())</script> John Lamont.</p>
-  </div>
-  <script src="app.js"></script>
+  <script src="components\menu.js"></script>
+  <script src="components\upButton.js"></script>
 </body>
 
 </html>
