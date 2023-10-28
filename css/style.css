@@ -204,16 +204,14 @@ li {
   width: 50%;
   margin: 20px auto 0;
   border-image: linear-gradient(#66BFBF, #11999E) 30;
-border-width: 4px;
-border-style: solid;
+  border-width: 4px;
+  border-style: solid;
   border-radius: 50%;
 
-
-width: 100%;
-margin: auto;
-background-color: #19BBC1;
-text-align: center;
-border-collapse: separate
+  margin: auto;
+  background-color: #19BBC1;
+  text-align: center;
+  border-collapse: separate
 }
 
 /* bottom container */
