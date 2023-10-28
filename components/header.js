@@ -3,8 +3,7 @@ const headerTemplate = document.createElement('template');
 headerTemplate.innerHTML = `
   <link rel="stylesheet" href="css/style.css">
   <header>
-    <div class="top-container">
-
+    <div>
       <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
       <h1>I'm John.</h1>
       <h2>Software Developer, Agriculturist & Environmentalist.</h2>
