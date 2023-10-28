@@ -208,10 +208,10 @@ li {
   border-style: solid;
   border-radius: 50%;
 
-  margin: auto;
   background-color: #19BBC1;
   text-align: center;
   border-collapse: separate
+
 }
 
 /* bottom container */
@@ -255,7 +255,7 @@ li {
   .top-container {
     background-color: #e3fdfd;
     position: relative;
-    padding-top: 65px;
+    padding-top: 75px;
   }
 
   .nav-links {
