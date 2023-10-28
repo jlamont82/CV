@@ -13,7 +13,7 @@ body {
 
 h1 {
   color: #66BFBF;
-  font-size:5.625rem;
+  font-size: 5.625rem;
   line-height: 1.5;
   margin: 10% auto 0 auto;
   font-family: 'Sacramento', cursive;
@@ -21,7 +21,7 @@ h1 {
 
 h2 {
   color: #66BFBF;
-  font-size:2.5rem;
+  font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 0.63rem;
 }
@@ -71,7 +71,6 @@ li {
   bottom: 0;
   right: 0;
   display: inline-flex;
-
   cursor: pointer;
   align-items: center;
   justify-content: center;
@@ -86,9 +85,11 @@ li {
 .go-top-btn img {
   width: 50px;
   height: 50px;
-  }
+}
 
-.br {margin-bottom: 10em}
+.br {
+  margin-bottom: 10em
+}
 
 /* top container */
 .top-container {
@@ -130,23 +131,23 @@ li {
 }
 
 .burger {
-    /*adjust the position of the burger t top righ*/
+  /*adjust the position of the burger t top righ*/
   position: absolute;
   right: 2.75rem;
   top: 2.5rem;
-    /*hide burger when on desctop screen*/
+  /*hide burger when on desctop screen*/
   display: none;
 }
 
 .burger div {
   z-index: 1;
-    /*width of burger lines*/
+  /*width of burger lines*/
   width: 25px;
-    /*thickness of the burger lines*/
+  /*thickness of the burger lines*/
   height: 3px;
-    /*color of burger lines*/
+  /*color of burger lines*/
   background-color: #66BFBF;
-    /* margen for burger*/
+  /* margen for burger*/
   margin: 5px;
   transition: all 0.3s ease;
 }
@@ -156,7 +157,7 @@ li {
   margin: 6.25rem 0;
 }
 
-.profile-pic{
+.profile-pic {
   width: 15rem;
   padding-bottom: 50px;
 }
@@ -168,16 +169,15 @@ li {
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
-  text-align:left;
+  margin: 80px auto 80px auto;
+  text-align: left;
 }
 
-.project-discription{
+.project-discription {
   width: 70%;
   margin: 40px auto 5px auto;
-  text-align:center;
+  text-align: center;
 }
-
 
 .skills-img {
   width: 10rem;
@@ -188,7 +188,7 @@ li {
 .certificate {
   width: 30%;
   float: right;
-vertical-align: middle;
+
 }
 
 .inline-hyperlink {
@@ -203,11 +203,20 @@ vertical-align: middle;
 .screenshot {
   width: 50%;
   margin: 20px auto 0;
-border-radius: 2%
+  border-image: linear-gradient(#66BFBF, #11999E) 30;
+border-width: 4px;
+border-style: solid;
+  border-radius: 50%;
+
+
+width: 100%;
+margin: auto;
+background-color: #19BBC1;
+text-align: center;
+border-collapse: separate
 }
 
 /* bottom container */
-
 .bottom-container {
   background-color: #e3fdfd;
   padding: 3.13rem 0 1.25rem;
@@ -220,7 +229,7 @@ border-radius: 2%
 }
 
 .footer-reference {
-  margin:0;
+  margin: 0;
   padding: 1.25rem 0 0;
 }
 
@@ -230,10 +239,9 @@ border-radius: 2%
 
 /* mobile view port css */
 @media screen and (max-width: 768px) {
-
   html, body {
-  overflow-x: hidden;
-}
+    overflow-x: hidden;
+  }
 
   body {
     max-width: 100%;
@@ -241,15 +249,21 @@ border-radius: 2%
   }
 
   h1 {
-    font-size:4.625rem;
+    font-size: 4.625rem;
   }
 
-/* Top container */
-/* Navication menu */
+  /* Top container */
+  /* Navication menu */
+  .top-container {
+    background-color: #e3fdfd;
+    position: relative;
+    padding-top: 65px;
+  }
+
   .nav-links {
-    z-index:6;
+    z-index: 6;
     right: 0;
-        /*hight of menu when poped out*/
+    /*hight of menu when poped out*/
     height: 50vh;
     top: 12vh;
     background-color: #e3fdfd;
@@ -257,10 +271,10 @@ border-radius: 2%
     display: flex;
     flex-direction: column;
     align-items: center;
-        /*% of screen covered by menu when extended out*/
+    /*% of screen covered by menu when extended out*/
     width: 50%;
     transform: translateX(100%);
-        /*motion and speed of menu poping out*/
+    /*motion and speed of menu poping out*/
     transition: transform 0.3s ease-in-out;
   }
 
@@ -269,16 +283,17 @@ border-radius: 2%
     bottom: 4rem;
   }
 
-/* middle container */
+  /* middle container */
   .intro {
     width: 90%;
   }
 
   .skill-row {
     width: 90%;
+    margin: 40px auto 40px auto;
   }
 
-  .project-discription{
+  .project-discription {
     margin: 20px auto;
     width: 90%;
   }
@@ -294,9 +309,9 @@ border-radius: 2%
   .screenshot {
     width: 100%;
     margin: 20px auto 0;
-
   }
-/* navigation menu */
+
+  /* navigation menu */
   .nav-links li {
     opacity: 0;
   }
@@ -307,36 +322,38 @@ border-radius: 2%
   }
 
   .go-top-btn {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  display: inline-flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: inline-flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2em 2em 0;
+    padding: .18em;
+    width: 40px;
+    height: 50px;
+    border: 0;
+    background: 0;
+  }
 
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  margin: 0 2em 2em 0;
-  padding: .18em;
-  width: 40px;
-  height: 50px;
-  border: 0;
-  background: 0;
-}
-
-.go-top-btn img {
-  width: 50px;
-  height: 50px;
+  .go-top-btn img {
+    width: 50px;
+    height: 50px;
   }
 }
+
 /* navigation menu */
 .nav-active {
   transform: translateX(0%);
 }
+
 /* nav current page color change indecating which page is currently in view */
 .current {
   color: #40514E;
   font-weight: bolder;
 }
+
 /* burger menu */
 @keyframes navLinkFade {
   from {
@@ -349,6 +366,7 @@ border-radius: 2%
     transform: translateX(0);
   }
 }
+
 /* burger menu rotation to form X to exit menu */
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
@@ -361,6 +379,7 @@ border-radius: 2%
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
+
 /* contact me button */
 .btn {
   background: #66BFBF;
