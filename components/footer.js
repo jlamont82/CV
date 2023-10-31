@@ -18,7 +18,7 @@ footerTemplate.innerHTML = `
         <a class="footer-reference" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
         <br>
       </p>
-      <p class="copyright">© <script>
+      <p class="copyright">&copy; <script>
 document.getElementById("year").innerHTML = new Date().getFullYear();</script> John Lamont.</p>
     </div>
   </footer>
