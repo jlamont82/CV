@@ -1,5 +1,7 @@
 const footerTemplate = document.createElement('template');
 
+
+
 footerTemplate.innerHTML = `
   <link rel="stylesheet" href="css/style.css">
   <footer>
@@ -18,11 +20,11 @@ footerTemplate.innerHTML = `
         <a class="footer-reference" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
         <br>
       </p>
-      <p class="copyright">&copy; <script>
-document.getElementById("year").innerHTML = new Date().getFullYear();</script> John Lamont.</p>
+      <p class="copyright">&copy; <script>document.write(/\d{4}/.exec(Date())[0])</script>  John Lamont. </p> 
     </div>
   </footer>
 `;
+
 
 class Footer extends HTMLElement {
   constructor() {
