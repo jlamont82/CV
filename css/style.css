@@ -231,6 +231,26 @@ li {
   width: 3rem;
 }
 
+/* Adventures Left column */
+.leftcolumn {
+  float: left;
+  width: 85%;
+}
+
+/* Adventures Right column */
+.rightcolumn {
+  float: right;
+  width: 15%;
+  padding-left: 20px;
+}
+
+/* Adventures full column */
+.fullcolumn {
+  float:left;
+  width: 100%;
+}
+
+
 /* mobile view port css */
 @media screen and (max-width: 768px) {
   html, body {
