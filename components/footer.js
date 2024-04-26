@@ -42,15 +42,7 @@ footerTemplate.innerHTML = `
     </script>
     </P>
 
-    const now = new Date();
-
-// get the current date and time as a string
-const currentDateTime = now.toLocaleString();
-
-
-
-<p><script>document.write(currentDateTime)</script> test</p>
-    
+   
     </div>
   </footer>
 `;
