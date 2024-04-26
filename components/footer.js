@@ -20,11 +20,8 @@ footerTemplate.innerHTML = `
         <a class="footer-reference" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
         <br>
       </p>
-      <p> Copyright &copy;
-      <script type="text/javascript"> var d = new Date() document.write(d.getFullYear())</script>
-      John Lamont</p>
       
-      <p class="copyright">&copy; <script>document.write(/\d{4}/.exec(Date())[0])</script>  John Lamont. </p> 
+      <p class="copyright">&copy; <script>document.write(/\d{4}/.exec(Date())[0])</script> John Lamont 2019 - 2024. </p> 
     </div>
   </footer>
 `;
