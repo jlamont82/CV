@@ -21,9 +21,7 @@ footerTemplate.innerHTML = `
         <br>
       </p>
       
-      <p class="copyright">&copy; <script>document.write(/\d{4}/.exec(Date())[0])</script> John Lamont 2019 - 2024. </p> 
-
-      <p> Copyright &copy; 2022-<script>document.write(new Date().getFullYear())</script> Your Name All Rights Reserved</p> 
+      <p class="copyright">&copy; <script>document.write(/\d{4}/.exec(Date())[0])</script> John Lamont 2024. </p> 
     </div>
   </footer>
 `;
