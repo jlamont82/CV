@@ -23,23 +23,6 @@ footerTemplate.innerHTML = `
       
       <p class="copyright">&copy; 2018 - <script>document.write(/\d{4}/.exec(Date())[0])</script> John Lamont. </p> 
 
-
-     <p> <script>
-
-      function updateDateTime() {
-
-        const now = new Date();
-
-        const currentDateTime = now.toLocaleString();
-
-        document.querySelector('#datetime').textContent = currentDateTime;
-      }
-
-      setInterval(updateDateTime, 1000);
-    </script>
-    </P>
-
-   
     </div>
   </footer>
 `;
