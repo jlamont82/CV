@@ -1,7 +1,5 @@
 const footerTemplate = document.createElement('template');
 
-
-
 footerTemplate.innerHTML = `
   <link rel="stylesheet" href="css/style.css">
   <footer>
