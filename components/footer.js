@@ -19,17 +19,7 @@ footerTemplate.innerHTML = `
         <br>
       </p>
       
-      <p class="copyright">&copy; 2024 -  <script>document.addEventListener('DOMContentLoaded', (event: Event) => {
-  const currentYear: number = new Date().getFullYear();
-  const copyrightElement: HTMLElement | null =
-    document.getElementById('copyright');
-  if (copyrightElement) {
-    copyrightElement.textContent = `© ${currentYear}`;
-  }
-});
-
-
-</script>  <script>document.write(/\d{4}/.exec(Date())[0])</script> John Lamont. </p> 
+      <p class="copyright">&copy; 2024 - <script>document.write(/\d{4}/.exec(Date())[0])</script> John Lamont. </p> 
 
     </div>
   </footer>
