@@ -1,5 +1,10 @@
 const footerTemplate = document.createElement('template');
 
+<script src="js/app.js"></script>
+
+
+
+
 footerTemplate.innerHTML = `
   <link rel="stylesheet" href="css/style.css">
   <footer>
@@ -19,7 +24,7 @@ footerTemplate.innerHTML = `
         <br>
       </p>
       
-      <p class="copyright">&copy; 2024 - <?php echo date("Y"); ?> <script>document.write(/\d{4}/.exec(Date())[0])</script> John Lamont. </p> 
+      <p class="copyright">&copy; 2024 - <span id="year"> <script>document.write(/\d{4}/.exec(Date())[0])</script> John Lamont. </p> 
 
     </div>
   </footer>
