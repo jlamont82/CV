@@ -1,5 +1,10 @@
 const footerTemplate = document.createElement('template');
 
+
+const getCurrentYear = (): number => new Date().getFullYear();
+
+
+
 footerTemplate.innerHTML = `
   <link rel="stylesheet" href="css/style.css">
   <footer>
@@ -19,7 +24,7 @@ footerTemplate.innerHTML = `
         <br>
       </p>
       
-      <p class="copyright">&copy; 2024 - <script>document.write(/\d{4}/.exec(Date())[0])</script> John Lamont. </p> 
+      <p class="copyright">&copy; 2024 - <script>document.write(getCurrentYear)</script> <script>document.write(/\d{4}/.exec(Date())[0])</script> John Lamont. </p> 
 
     </div>
   </footer>
