@@ -239,7 +239,6 @@ li {
 
 /* Adventures Right column */
 .rightcolumn {
-  position: fixed;
   float: right;
   width: 15%;
   padding-left: 20px;
