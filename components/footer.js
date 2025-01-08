@@ -19,7 +19,7 @@ footerTemplate.innerHTML = `
         <br>
       </p>
       
-      <p class="copyright">&copy; 2024 - <script>document.write(/\d{4}/.exec(Date())[0])</script> John Lamont. </p> 
+      <p class="copyright">&copy; 2025 - <script>document.write(/\d{4}/.exec(Date())[0])</script> John Lamont. </p> 
 
     </div>
   </footer>
